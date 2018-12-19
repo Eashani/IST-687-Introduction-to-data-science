@@ -143,16 +143,6 @@
         {
             "ports": [
                 {
-                    "input": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "cleaned_data.csv",
-            "target": "Exploratory_Data_Analysis5.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "satisfactionArrivalDelay",
                     "type": "png"
                 }
@@ -199,16 +189,6 @@
             ],
             "source": "Exploratory_Data_Analysis5.R",
             "target": "satisfactionArrivalGreater.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "fD",
-                    "type": "png"
-                }
-            ],
-            "source": "Exploratoty_Data_Analysis4.R",
-            "target": "fD.png"
         },
         {
             "ports": [
@@ -486,12 +466,6 @@
             "name": "satisfactionAge.png"
         },
         {
-            "assigned_to": "achandir",
-            "desc": "Validate and compare models for accuracy",
-            "name": "evaluation.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "satisfactionSurvey.csv"
         },
         {
@@ -529,9 +503,6 @@
         },
         {
             "name": "satisfactionArrivalGreater.png"
-        },
-        {
-            "name": "fD.png"
         },
         {
             "name": "fD1.png"
@@ -640,8 +611,14 @@
             "desc": "Usage of Naive Bayes classifier and calculation/evaluation of the accuracy.",
             "name": "NaiveBayesEvaluation.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "Validate and compare models for accuracy",
+            "name": "evaluation.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-08 04:44:36",
+    "updated_at": "2018-12-08 05:30:17",
     "url": "https://github.com/fall2018-saltz/team55"
 }
