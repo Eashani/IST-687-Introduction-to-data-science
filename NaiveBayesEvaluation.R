@@ -118,6 +118,7 @@ percSat <- sumMatrix/sum(matrixSat)
 percSat <- percSat*100 
 percSat
 
+
 #[1] 76.9396
 
 #Using the predict command, the happy customers were matched and a confusion matrix was created
